@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title id="dimensions">Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="div-all">
+        <button id="all" class="btn-round btn-all" onmouseover="setStrong(this)">all</button>
+    </div>
+    <div class="div-go">
+        <button id="go" class="btn-round btn-go" onmouseover="setStrong(this)">go</button>
+    </div>
+
+    <style>
+        .stronger {
+            font-weight: bold;
+        }
+    </style>
+
+    <script>
+        function setStrong(el) {
+            el.classList.toggle("stronger");
+            console.log(el.classList);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+footer {
+  @include border-areas;
+
+  float: left;
+
+  & a {
+    @include aligntextmobile;
+
+    &:first-child {
+      float: right;
+      padding-left: 30px;
+      padding-right: 15px;
+    }
+
+    .menus-text {
+      display: none;
+    }
+  }
+}

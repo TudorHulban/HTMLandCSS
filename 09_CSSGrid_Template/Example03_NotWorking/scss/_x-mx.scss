@@ -1,0 +1,22 @@
+@mixin border-areas {
+  background-color: $color-base;
+  color: $text-menus;
+}
+
+@mixin aligntextmobile {
+  padding: 3px 15px 5px;
+  font-size: $font-size-links-mobile;
+  font-family: 'Abel';
+
+  &:hover {
+    background-color: $color-selection-ox;
+  }
+
+  :visited {}
+}
+
+@mixin fontawesome-settings {
+  padding-right: 2px;
+  font-weight: bold;
+  font-size: 1rem;
+}

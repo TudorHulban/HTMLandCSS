@@ -1,0 +1,38 @@
+@media (min-width: $breakpoint-phone) {
+  .noshowtransit {
+    display: none;
+  }
+
+  body {
+    grid-template-columns: 50px repeat(11, 1fr);
+  }
+
+  header {
+    grid-column: span 12;
+    flex-direction: row;
+  }
+
+  nav {
+    grid-column: 1/2;
+    grid-row: 2;
+
+    & a {
+      padding: 10px 15px;
+      font-size: 1.5rem;
+      font-family: 'Antic';
+    }
+  }
+
+  main {
+    .row__lastupdated {
+      display: block;
+    }
+
+    .content__header,
+    .content__row-odd,
+    .content__row-even {
+      grid-template-columns: .16fr 1fr 1.1fr 1.5fr 1fr;
+      font-size: 3vw;
+    }
+  }
+}

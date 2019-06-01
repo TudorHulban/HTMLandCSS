@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title id="dimensions">Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="div-all">
+            <button class="btn-round btn-all" id="b-all">all</button>
+        </div>
+    </header>
+
+    <nav>nav</nav>
+
+    <main>
+        <p>main</p>
+    </main>
+
+    <footer>footer</footer>
+
+    <script>
+        const TheHeader = document.getElementsByTagName("header")[0];
+        const TheNav = document.getElementsByTagName("nav")[0];
+        const TheMain = document.getElementsByTagName("main")[0];
+        const TheButton = document.getElementById("b-all");
+
+        TheButton.onclick = () => {
+            TheHeader.classList.toggle("header--nav-reduced");
+            TheNav.classList.toggle("nav--nav-reduced");
+            TheMain.classList.toggle("main--nav-reduced");
+        }
+
+    </script>
+</body>
+
+</html>

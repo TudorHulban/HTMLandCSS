@@ -1,0 +1,71 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+.logo {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-left: -0.7rem;
+}
+
+ol > li {
+    font-family: 'Helvetica' !important;
+    font-size: 1.2rem !important;
+}
+
+.is-garamond {
+    font-family: 'EB Garamond';
+}
+
+.is-helvetica {
+    font-family: 'Helvetica';
+}
+
+.is-menu-text {
+    font-size: 1.5rem !important;
+}
+
+.is-first-word {
+    padding-left: 3rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: 'EB Garamond';
+}
+
+.has-padding-left {
+    padding-left: 1rem !important;
+}
+
+.has-margin-top {
+    margin-top: 2rem !important;
+}
+
+article p {
+    font-family: 'Helvetica';
+    font-size: 1.2rem;
+}
+
+.page-footer {
+    padding-top: 0rem !important;
+}
+
+.page-footer .row {
+    margin-bottom: 0.5rem !important;
+}
+
+article ul {
+    list-style-type: square !important;
+}

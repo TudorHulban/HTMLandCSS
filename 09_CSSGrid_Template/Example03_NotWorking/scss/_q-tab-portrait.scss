@@ -1,0 +1,32 @@
+@media screen and (min-width: $breakpoint-tabletportrait) {
+  .noshowtransit {
+    display: inline;
+  }
+
+  body {
+    grid-template-columns: 190px repeat(11, 1fr);
+  }
+
+  header {
+    grid-column: span 12;
+    flex-direction: row;
+
+    & a {
+      line-height: 40px;
+
+      & :last-child {
+        position: relative;
+        padding-right: 30px;
+      }
+    }
+  }
+
+  main {
+    grid-column: 2/-1;
+    text-align: right;
+  }
+
+  footer {
+    grid-column: span 12;
+  }
+}

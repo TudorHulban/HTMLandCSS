@@ -1,0 +1,29 @@
+header {
+  @include border-areas;
+
+  & a {
+    @include aligntextmobile;
+
+    &:last-child {
+      position: absolute;
+      right: 0;
+    }
+
+    em {
+      display: inline-block;
+      position: absolute;
+      line-height: 12px;
+      padding: 4px 4px 3px 1px;
+      margin: 2px 0 0 -7px;
+      background-color: $background-warning;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+  }
+
+  & span {
+    @include fontawesome-settings;
+  }
+}

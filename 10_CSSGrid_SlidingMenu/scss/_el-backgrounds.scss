@@ -1,0 +1,36 @@
+header {
+    position: relative;
+
+    background-color: aqua;
+    height: 30vh;
+}
+
+nav {
+    background-color: blueviolet;
+    height: 80vh;
+}
+
+main {
+    background-color: burlywood;
+    height: 40vh;
+}
+
+footer {
+    background-color: cornflowerblue;
+    height: 10vh;
+}
+
+.btn-round {
+    display: block;
+
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    text-decoration: none;
+    text-align: center;
+    background-color: yellowgreen;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    border-radius: 50%;
+}

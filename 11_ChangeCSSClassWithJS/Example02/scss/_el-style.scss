@@ -1,0 +1,49 @@
+header {
+    background-color: aqua;
+    height: 10vh;
+
+    position: relative;
+}
+
+nav {
+    background-color: blueviolet;
+    height: 50vh;
+
+    color: antiquewhite;
+    font-weight: bold;
+    text-align: center;
+}
+
+main {
+    background-color: burlywood;
+    height: 40vh;
+
+    p {
+        text-align: right;
+    }
+}
+
+footer {
+    background-color: cornflowerblue;
+}
+
+.btn-round {
+    display: block;
+
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    text-decoration: none;
+    text-align: center;
+    background-color: yellowgreen;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    border-radius: 50%;
+}
+
+header {
+    .div-all {
+        margin-left: -20px;
+    }
+}

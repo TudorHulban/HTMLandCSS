@@ -1,0 +1,35 @@
+main {
+  background-color: $color-diffuse;
+  color: $text-content;
+
+  .content {
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Montserrat';
+  }
+
+  .content__header {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Abel';
+  }
+
+  .content__row-odd {
+    background-color: darken($color-diffuse, 18);
+  }
+
+  .row__created {
+    display: none;
+  }
+
+  .row__lastupdated {
+    display: none;
+  }
+
+  .row__action {
+    display: none;
+    justify-content: space-between;
+  }
+}

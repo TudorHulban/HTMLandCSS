@@ -1,0 +1,7 @@
+header {
+    background-color: var(--header__bg--color);
+    color: var(--header__text--color);
+    height: #{$header__height}vh;
+
+    text-align: right;
+}

@@ -1,0 +1,3 @@
+@function startColumn($navColumns) {
+  @return $navColumns + 1;
+}

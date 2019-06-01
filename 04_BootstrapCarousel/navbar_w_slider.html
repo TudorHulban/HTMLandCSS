@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script defer src="js/jquery-3.3.1.min.js"></script>
+    <script defer src="js/bootstrap.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
+
+    <style>
+        body {
+            background: #e2e2e2;
+        }
+
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+        }
+
+        .carousel-indicators {
+            bottom: 100px;
+        }
+
+        .carousel-indicators>li {
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+        }
+
+        .has-no-padding {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-inverse navbar-light fixed-top" role="navigation"
+            style="background-color: rgba(0,0,0,0.5);">
+
+            <a href="#" class="navbar-brand">
+                <img src="img/Goescat-Macaron-Telegram.svg" alt="" class="navbar-logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="main-nav"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="main-nav">
+                <ul class="navbar-nav">
+                    <li>
+                        <a href="#" class="nav-link text-warning">Home<span></span></a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-warning">About<span></span></a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-warning">Contact<span></span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <section>
+        <div id="demo" class="carousel slide container-fluid has-no-padding" data-ride="carousel" data-interval="3500">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1" class="has-no-radius"></li>
+                <li data-target="#demo" data-slide-to="2" class=""></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="img/1400_1.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="img/1400_2.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="img/1400_3.jpg">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+    </section>
+
+    <section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur fugiat ipsam error quia, sunt repellat
+            cupiditate, quos, porro aliquid soluta ullam totam animi aliquam. Dolore doloribus, quos eum fugiat deleniti
+            reprehenderit quasi ut? Corrupti reprehenderit aperiam ut doloribus porro placeat numquam, voluptatum
+            sapiente enim, nulla provident labore voluptatibus nobis totam, fuga vitae impedit fugiat! Consequuntur
+            pariatur voluptatum molestiae, necessitatibus architecto, eum id, neque veritatis at similique ipsam
+            accusantium rem repellat sint fugit repellendus quis sequi, quidem! Repellendus sit voluptas, quia, error
+            atque quis molestias consequuntur dolore totam eos perspiciatis inventore facilis magni facere deserunt
+            reiciendis sequi ad labore, libero vero delectus maxime commodi. Amet ipsum perspiciatis ab illo asperiores
+            omnis accusantium! Recusandae odio quae possimus optio esse aspernatur, dolor voluptas sit nihil ad?
+            Officiis porro iusto laboriosam repudiandae ullam dolor magnam quia magni vel, maxime quo sit nihil atque
+            exercitationem necessitatibus corrupti impedit omnis, explicabo temporibus minima maiores voluptatum
+            aliquam! Perspiciatis aspernatur ea voluptatum vitae dolore atque cupiditate quia vel ex dolorem nulla, nemo
+            qui rem corrupti laboriosam, ipsa repellendus ipsum magni repellat veniam nesciunt iste quo asperiores
+            accusamus! Excepturi quae velit, inventore assumenda laborum. Laborum veritatis, temporibus cum maiores rem,
+            harum hic. Eum, vero. Vero quibusdam doloremque temporibus vitae quia officiis sit, voluptatum consequuntur
+            tenetur, iste dolor rerum, repellat numquam, ipsam possimus! Necessitatibus aspernatur sit fugit, molestiae
+            eum minima dolorem vero quis magni optio voluptatum unde ratione, rem! Atque odit illum aut cupiditate
+            consequatur aliquid, voluptas ex unde voluptatem cumque a laudantium ipsum incidunt molestiae tempore,
+            mollitia ipsa est eum consequuntur nobis dicta quas nulla aperiam. Reiciendis vitae iusto ex possimus
+            eligendi temporibus maxime repellat consequuntur saepe tenetur fugiat cum, quo repellendus soluta harum sed
+            sit pariatur placeat! Alias suscipit modi adipisci totam, exercitationem nobis nesciunt dignissimos quis
+            atque facere consequuntur similique sunt esse. Nihil aut sed, velit totam?</p>
+    </section>
+
+    <script>
+        document.querySelector(".navbar-toggler").addEventListener("click", (e) => {
+            document.querySelector("#main-nav").classList.toggle("show");
+        });
+    </script>
+</body>
+
+</html>

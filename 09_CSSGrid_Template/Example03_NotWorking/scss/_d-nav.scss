@@ -1,0 +1,18 @@
+nav {
+    float: left;
+
+    @include border-areas;
+
+    input[type=checkbox] {
+        display: none;
+    }
+
+    ul {
+        list-style-type: none;
+        display: none;
+    }
+
+    input[type=checkbox]:checked ~ ul {
+        display: block;
+    }
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title id="dimensions">Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="div-all">
+            <button class="btn-round btn-all">all</button>
+        </div>
+
+        <div class="div-go">
+            <button class="btn-round btn-go">go</button>
+        </div>
+    </header>
+
+    <nav>nav</nav>
+
+    <main>main</main>
+
+    <footer>footer</footer>
+
+    <script>
+        var nav = document.getElementsByTagName('nav')[0];
+        var header = document.getElementsByTagName('header')[0];
+        var main = document.getElementsByTagName('main')[0];
+        var headerButtons = header.getElementsByTagName('div');
+
+        nav.onmouseenter = showNav;
+        nav.onclick = showNav;
+        nav.onmouseleave = hideNav;
+
+        function showNav() {
+            nav.className = '';
+            header.className = '';
+            main.className = '';
+            console.log('showNav', '"' + header.className + '"');
+        }
+
+        function hideNav() {
+            nav.className = 'no-nav';
+            header.className = 'no-nav';
+            main.className = 'no-nav';
+            console.log('hideNav', '"' + header.className + '"');
+        }
+
+        hideNav();
+        window.onresize = hideNav;
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script src="https://use.fontawesome.com/60691ad9d9.js"></script>
+</head>
+
+<body>
+    <div class="slider">
+        <ul class="slides">
+            <li><img src="img/1_pic.jpg" alt=""></li>
+            <li><img src="img/2_pic.jpg" alt=""></li>
+            <li><img src="img/3_pic.jpg" alt=""></li>
+        </ul>
+    </div>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elSlider = document.getElementsByClassName('slider')[0];
+            var hSlider = M.Slider.init(elSlider, {
+                height: 400,
+                interval: 5000
+            });
+        });
+
+    </script>
+</body>
+
+</html>

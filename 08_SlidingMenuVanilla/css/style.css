@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  background-color: burlywood; }
+
+.btn {
+  position: relative;
+  overflow-x: hidden;
+  left: 0;
+  margin-top: 0; }
+
+#the-text {
+  position: relative; }
+
+.menu {
+  position: fixed;
+  width: 20vh;
+  height: 100vh;
+  left: -20.1vh;
+  top: 0;
+  background-color: #133;
+  color: #fff;
+  text-align: center; }
+
+ul {
+  position: relative;
+  padding: 0;
+  margin-top: 0;
+  list-style-type: none;
+  background-color: #900; }
+  ul li:nth-of-type(n):not(:last-of-type) {
+    border-bottom: solid 1px #ddd; }
+
+.menu-open {
+  left: 0.1vh; }
+
+.offset-menu {
+  left: 20vh; }
+
+/*# sourceMappingURL=style.css.map */

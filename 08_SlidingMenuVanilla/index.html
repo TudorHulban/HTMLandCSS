@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title id="dimensions">Dash</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/fontawesome-all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div id="sidebar" class="menu">
+            <ul>
+                <li>Home</li>
+                <li>Tasks</li>
+                <li>Assets</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div>
+            <label id="btn-toggle" class="fa fa-bars btn"></label>
+        </div>
+    </header>
+
+    <main>
+        <p id="the-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum fugit neque quisquam, vel ratione accusamus aperiam mollitia repudiandae architecto beatae quam, autem inventore excepturi dolore adipisci ullam obcaecati voluptatum quas.</p>
+    </main>
+</body>
+
+
+<script>
+    function toggleMenuOpen() {
+        document.getElementById("sidebar").classList.toggle('menu-open');
+        document.getElementById("btn-toggle").classList.toggle('offset-menu');
+        document.getElementById("the-text").classList.toggle('offset-menu');
+    }
+    
+    window.onload = function() {
+        document.getElementById("btn-toggle").addEventListener('click', toggleMenuOpen);
+    }
+</script>
+</html>

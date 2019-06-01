@@ -1,0 +1,7 @@
+footer {
+    background-color: var(--footer__bg--color);
+    color: var(--main__text--color);
+    height: #{$footer__height}vh;
+    
+    text-align: center;
+}

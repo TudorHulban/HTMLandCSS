@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation</title>
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="teal">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">Rejuvenate</a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Detox">Detox</a></li>
+                        <li><a href="#Anti-Aging">Anti-Aging</a></li>
+                        <li><a href="#Support">Support</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Detox">Detox</a></li>
+        <li><a href="#Anti-Aging">Anti-Aging</a></li>
+        <li><a href="#Support">Support</a></li>
+    </ul>
+
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elNavigation = document.getElementsByClassName('sidenav')[0];
+            var elNavigation = M.Sidenav.init(elNavigation, {});
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Transparent</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script defer type="text/javascript" src="js/materialize.min.js"></script>
+</head>
+
+<body>
+    <div class="navigation container">xxx</div>
+
+    <section class="slider2D">
+        <div class="slider">
+            <div class="container">
+                <ul class="slides">
+                    <li><img src="img/1_pic.jpg" alt=""></li>
+                    <li><img src="img/2_pic.jpg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var elSlider = document.getElementsByClassName('slider')[0];
+                var hSlider = M.Slider.init(elSlider, {
+                    height: 400,
+                    interval: 5000
+                });
+            });
+
+        </script>
+    </section>
+
+
+</body>
+
+</html>

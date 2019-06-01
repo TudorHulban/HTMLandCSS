@@ -1,0 +1,39 @@
+.termsarea {
+    resize: none;
+    padding: 0.35em;
+    margin-top: 0.5em;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.givemarginrigth {
+    margin-right: 1em;
+}
+
+.givemarginleft {
+    margin-left: 1em;
+}
+
+.givepadtop {
+    padding-top: 0.45em;
+}
+
+.is-horizontal-center {
+    justify-content: center;
+}
+
+.is-flex-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.is-centered-horizontal {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.is-upload-btn {
+    position: absolute;
+    top: 23%;
+    left: 40%;
+}
