@@ -1,5 +1,10 @@
-### HTMLandCSS
+### HTML and CSS
+#### CSS box model
+All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout.
+The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. 
+
 ```html
+https://internetingishard.com/
 https://hugogiraudel.com/2015/06/18/styling-react-components-in-sass/
 <!-- 7 - 1 pattern: base/, components/, layout/, pages/, themes/, abstracts/, vendors/. -->
 http://ui-patterns.com/
@@ -15,3 +20,8 @@ http://krasimirtsonev.com/blog/article/CSS-before-and-after-pseudo-elements-in-p
 !>.container>h1{hi, world!}
 ```
 See https://docs.emmet.io/cheatsheet-a5.pdf for more
+
+### Interview
+```html
+https://www.tutorialspoint.com/css/css_interview_questions.htm
+```
