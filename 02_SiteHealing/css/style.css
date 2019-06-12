@@ -7542,7 +7542,7 @@ body {
   margin: 1rem 0 0;
 }
 .card p:first-of-type {
-  margin-top: 1.25rem;
+  margin-top: 2.25rem;
 }
 .card p:first-of-type:before {
   content: "";
@@ -7580,6 +7580,15 @@ body {
   .card .description {
     flex-basis: 60%;
   }
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #ccc;
+  margin: 1rem 3rem;
+  padding: 0;
 }
 
 .icon-block {
