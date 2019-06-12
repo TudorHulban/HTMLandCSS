@@ -7454,7 +7454,7 @@ body {
   margin: 1rem auto;
   box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
   margin-bottom: 1.6%;
-  background: #fff;
+  background: #f1f1f1;
   line-height: 1.4;
   font-family: sans-serif;
   border-radius: 5px;
@@ -7493,7 +7493,7 @@ body {
   margin: auto;
   transition: left 0.4s;
   background: rgba(0, 0, 0, 0.6);
-  color: #fff;
+  color: #f1f1f1;
   padding: 20px 10px;
   width: 100%;
   font-size: 1.2rem;
@@ -7509,7 +7509,7 @@ body {
 }
 .card .description {
   padding: 1rem;
-  background: #fff;
+  background: #e4e4e4;
   position: relative;
   z-index: 1;
 }
@@ -7533,7 +7533,7 @@ body {
   text-align: right;
 }
 .card .description .read-more a {
-  color: blue;
+  color: #016776;
   display: inline-block;
   position: relative;
 }
@@ -7548,7 +7548,7 @@ body {
   content: "";
   position: absolute;
   height: 5px;
-  background: blue;
+  background: #016776;
   width: 55px;
   top: -0.75rem;
   border-radius: 3px;
@@ -7561,7 +7561,7 @@ body {
   left: 0%;
 }
 .card a:hover {
-  color: blue;
+  color: #016776;
 }
 .card .read-more a:hover:after {
   margin-left: 5px;
