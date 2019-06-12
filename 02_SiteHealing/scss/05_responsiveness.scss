@@ -1,0 +1,15 @@
+.card {
+    @media (min-width: 640px) {
+        flex-direction: row;
+        max-width: 700px;
+
+        .meta {
+            flex-basis: 50%;
+            height: auto;
+        }
+
+        .description {
+            flex-basis: 60%;
+        }
+    }
+}
