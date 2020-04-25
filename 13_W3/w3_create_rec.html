@@ -11,32 +11,45 @@
 
 <body>
     <div class="w3-container">
-        <div class="w3-center w3-border" style="width:90%;margin:auto">
+        <div class="w3-center w3-border w3-margin-top w3-light-gray" style="width:90%;margin:auto">
+            <div class="w3-container">
+                <h2 class="w3-left-align">Create Record</h2>
+            </div>
+
             <div class="w3-row">
-                <div class="w3-container w3-col l2 m2 w3-left-align w3-margin-top w3-margin-bottom">
-                    <label><b>Type</b></label>
-                    <input class="w3-input w3-border" type="text">
+                <div class="w3-container w3-col l2 m12 s12 w3-left-align w3-margin-bottom" style="margin-top:15px">
+                    <label><b>Type</b></label><br>
+                    <select name="type" id="type" class="w3-padding">
+                        <option value="A">A</option>
+                        <option value="CNAME">CNAME</option>
+                        <option value="MX">MX</option>
+                        <option value="TXT">TXT</option>
+                    </select>
                 </div>
 
-                <div class="w3-container w3-col l3 m2 w3-left-align w3-margin-top w3-margin-bottom">
+                <div class="w3-container w3-col l2 m12 s12 w3-left-align w3-margin-top w3-margin-bottom">
                     <label><b>Name</b></label>
                     <input class="w3-input w3-border" type="text">
                 </div>
 
-                <div class="w3-container w3-col l2 m2 w3-left-align w3-margin-top w3-margin-bottom">
+                <div class="w3-container w3-col l4 m12 s12 w3-left-align w3-margin-top w3-margin-bottom">
                     <label><b>Value</b></label>
                     <input class="w3-input w3-border" type="text">
                 </div>
 
-                <div class="w3-container w3-col l2 m2 w3-left-align w3-margin-top w3-margin-bottom">
+                <div class="w3-container w3-col l2 m12 s12 w3-left-align w3-margin-top w3-margin-bottom">
                     <label><b>TTL</b></label>
                     <input class="w3-input w3-border" type="text">
                 </div>
 
-                <div class="w3-col l2 m2 w3-left-align w3-margin-left w3-margin-top w3-margin-bottom">
-                    <button class="w3-button w3-yellow" style="margin-top:22px"><i class="fa fa-plus-square"></i> Add Record</button>
+                <div class="w3-col l2 m12 s12 w3-margin-top w3-margin-bottom w3-allign-right">
+                    <button class="w3-button w3-yellow" style="margin-top:24px"><i
+                            class="fa fa-plus-square"></i> Add Record</button>
                 </div>
+            </div>
 
+            <div class="w3-container">
+                <h5 class="w3-left-align">Description of Record.</h5>
             </div>
         </div>
     </div>
