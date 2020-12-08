@@ -29,6 +29,7 @@ https://www.tutorialspoint.com/css/css_interview_questions.htm
 ### Resources
 ```
 https://paletton.com/#uid=7490u0kvcthjQA8p7vCxhnjDUib
+https://elementor.com/blog/website-layout-ideas/?utm_source=wp-overview-widget&utm_medium=wp-dash&utm_campaign=news-feed
 ```
 
 
